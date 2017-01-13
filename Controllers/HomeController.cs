@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 
 namespace ASPNetCoreRedis.Controllers
 {
@@ -6,6 +7,10 @@ namespace ASPNetCoreRedis.Controllers
     {
         public IActionResult Index()
         {
+            HttpContext.Session.SetString("MyPageTitle", "Redis Rules!");
+
+            ViewBag.Message = HttpContext.Session.GetString("MyPageTitle");
+
             return View();
         }
     }

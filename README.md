@@ -1,9 +1,15 @@
 # ASPNetCoreRedis
 ASP.NET Core website with Redis caching
 
+# Install REDIS
+
+## Helpful links
+
 * https://chocolatey.org/
 * https://chocolatey.org/packages/redis-64/
-* 
+
+## Install procedure
+ 
 ```bash
 ? @powershell -NoProfile -ExecutionPolicy Bypass 
     -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" 

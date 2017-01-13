@@ -9,7 +9,6 @@ ASP.NET Core website with Redis caching
 * https://chocolatey.org/packages/redis-64/
 
 ## Install procedure
- 
 ```bash
 ? @powershell -NoProfile -ExecutionPolicy Bypass 
     -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" 
@@ -98,28 +97,6 @@ Chocolatey installed 1/1 packages. 0 packages failed.
 
  ```bash
 ? cd C:\ProgramData\chocolatey\lib\redis-64
-? ls -l
-```
-
-```
-total 31128
--rw-r--r-- 1 Geert Van Huychem 197609   12618 Jan 13 09:06 'Redis on Windows Release Notes.docx'
--rw-r--r-- 1 Geert Van Huychem 197609   16769 Jan 13 09:06 'Redis on Windows.docx'
--rw-r--r-- 1 Geert Van Huychem 197609   14265 Jan 13 09:06 'Windows Service Documentation.docx'
--rw-r--r-- 1 Geert Van Huychem 197609 5902564 Jan 13 09:06 redis-64.nupkg
--rw-r--r-- 1 Geert Van Huychem 197609    1563 Jan 13 09:06 redis-64.nuspec
--rwxr-xr-x 1 Geert Van Huychem 197609  414704 Jan 13 09:06 redis-benchmark.exe*
--rw-r--r-- 1 Geert Van Huychem 197609 4370432 Jan 13 09:06 redis-benchmark.pdb
--rwxr-xr-x 1 Geert Van Huychem 197609  265712 Jan 13 09:06 redis-check-aof.exe*
--rw-r--r-- 1 Geert Van Huychem 197609 3518464 Jan 13 09:06 redis-check-aof.pdb
--rwxr-xr-x 1 Geert Van Huychem 197609  276968 Jan 13 09:06 redis-check-dump.exe*
--rw-r--r-- 1 Geert Van Huychem 197609 3485696 Jan 13 09:06 redis-check-dump.pdb
--rwxr-xr-x 1 Geert Van Huychem 197609  490984 Jan 13 09:06 redis-cli.exe*
--rw-r--r-- 1 Geert Van Huychem 197609 4517888 Jan 13 09:06 redis-cli.pdb
--rwxr-xr-x 1 Geert Van Huychem 197609 1561576 Jan 13 09:06 redis-server.exe*
--rw-r--r-- 1 Geert Van Huychem 197609 6909952 Jan 13 09:06 redis-server.pdb
--rw-r--r-- 1 Geert Van Huychem 197609   43929 Jan 13 09:06 redis.windows-service.conf
--rw-r--r-- 1 Geert Van Huychem 197609   43927 Jan 13 09:06 redis.windows.conf
 ```
 
 ```bash
